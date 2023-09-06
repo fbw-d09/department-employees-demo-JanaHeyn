@@ -9,6 +9,8 @@ departmentRouter
     .post('/department', departmentController.createDepartment)
     .get('/departments', departmentController.getDepartments)
     .get('/department/:id', departmentController.getDepartment)
+    .patch('/employee/:id', departmentController.updateDepartment)
+    .delete('/employee/:id', departmentController.deleteDepartment)
     .delete('/department', departmentController.deleteDepartments);
 
 export default departmentRouter;

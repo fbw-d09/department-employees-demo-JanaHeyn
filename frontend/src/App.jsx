@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
-import './App.scss'
+import React, { useState } from 'react';
+import './App.scss';
+
 
 function App() {
-    const [ showDepartments, setShowDepartments ] = useState(false);
+  const [ showDepartments, setShowDepartments ] = useState(false);
     const [ showEmployees, setShowEmployees ] = useState(false);
 
     const [ depData, setDepData ] = useState([]);
@@ -82,6 +83,7 @@ function App() {
             </div>
         </div>
     )
-} 
+  
+}
 
 export default App
